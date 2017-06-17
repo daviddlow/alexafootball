@@ -57,3 +57,6 @@ typings/
 # dotenv environment variables file
 .env
 
+# specifics to the project
+api_data
+
