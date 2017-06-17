@@ -62,6 +62,10 @@ describe("Testing standard LaunchRequest", function() {
 			expect(speechResponse.response.outputSpeech).not.to.be.null
 		})
 
+		it("should have a spoken response", () => {
+			expect(speechResponse.response.outputSpeech).not.to.be.null
+		})
+
 		it("should not end the alexa session", function() {
 			expect(speechResponse.response.shouldEndSession).not.to.be.null
 			expect(speechResponse.response.shouldEndSession).to.be.false
