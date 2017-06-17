@@ -22,7 +22,7 @@
     "mocha": "^3.4.2"
   },
   "dependencies": {
-    "alexa-sdk": "^1.0.10"
+    "alexa-sdk": "^1.0.10",
     "moment": "^2.18.1"
   }
 }
