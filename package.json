@@ -22,7 +22,7 @@
     "mocha": "^3.4.2"
   },
   "dependencies": {
-    "angular-footballdata-api-factory": "^0.2.4",
+    "alexa-sdk": "^1.0.10"
     "moment": "^2.18.1"
   }
 }
