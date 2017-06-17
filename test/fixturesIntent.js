@@ -35,7 +35,7 @@ describe("Testing an Intent request for fixturesIntent", function() {
         },
         "matchWords": {
           "name": "matchWords",
-          "value": "fixture"
+          "value": "match"
         }
       }
     }
