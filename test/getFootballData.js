@@ -1,4 +1,3 @@
-const mocha = require('Mocha');
 var chai = require('chai');
 var expect = require('chai').expect;
 var chaiAsPromised = require("chai-as-promised");
