@@ -1,3 +1,5 @@
+/*
+
 var expect = require('chai').expect;
 var index = require('../src/index');
 
@@ -46,7 +48,7 @@ describe("Testing an Intent request for fixturesIntent", function() {
 		ctx.Promise
 			.then(resp => {
 				speechResponse = resp;
-				console.log(speechResponse);
+				//console.log(speechResponse);
 				done();
 			})
 			.catch(err => {
@@ -80,5 +82,8 @@ describe("Testing an Intent request for fixturesIntent", function() {
 			expect(speechResponse.response.shouldEndSession).not.to.be.null
 			expect(speechResponse.response.shouldEndSession).to.be.true
 		})
+
 	})
 })
+
+*/
