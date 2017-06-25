@@ -59,4 +59,4 @@ typings/
 
 # specifics to the project
 api_data
-
+.vscode
